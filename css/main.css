@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
@@ -10,16 +11,19 @@ header, section, footer {
 	padding: 1em;
 }
 
-
-header {
+header {		
 	background-image: url(../img/background.jpg);
 	background-size: cover;
-	color:	#FFFFFF;
+	color: #006E89;
+}
+
+.tag-line {
+	font-family: 'Lobster', cursive;
+	font-size: 2rem;
 }
 
 header a:link,
 header a:visited {
-	color: #CCC;
 	text-decoration: none;
 	padding-left: 1em;
 	padding-right: 1em;
@@ -33,3 +37,36 @@ header a:focus {
 	color: #FFF;
 	background-color: #CC0000;
 }
+
+#about, #projects {
+	background-color: #EFD74B;
+	overflow: auto;
+}
+
+#education, #contact {
+	background-color: #A55A18;
+}
+
+footer {
+	background-color: #DA2423;
+}
+
+#about img {
+	max-height: 450px;
+	float: left;
+	margin-right: 1em;
+	opacity: 1;
+}
+
+#about img:hover {
+	opacity: 0.7;
+}
+
+#education {
+	clear: both;
+}
+
+
+
+
+
