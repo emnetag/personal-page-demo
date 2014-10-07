@@ -29,14 +29,13 @@ header a:visited {
 	padding-right: 1em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-	transition-property: font-style, color, background-color, text-decoration;
+	transition-property: color, background-color, text-decoration;
 	transition-duration: 0.75s;
 }
 
 header a:hover,
 header a:focus {
 	text-decoration: underline;
-	font-style: italic;
 	color: #FFF;
 	background-color: #CC0000;
 }
@@ -62,9 +61,9 @@ footer {
 	opacity: 1;
 }
 
-#about img:active {
+#about img:hover {
 	box-shadow: 40px 40px 20px rgba(75, 75, 75, 0.7);
-	transform: scale(1.1, 1.1) rotate(360deg) translate(100px, 100px);	
+	transform: scale(1.1, 1.1) translateX(150px);	
 }
 
 #education {
